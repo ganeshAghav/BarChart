@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Bar Chart XML UI"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="350dp"
+            android:background="#000000" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ff00" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_above="@+id/view1"
+                android:background="#0543b6" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_above="@+id/view2"
+                android:background="#0ca709" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:id="@+id/view21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ff00" />
+
+            <View
+                android:id="@+id/view22"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_above="@+id/view21"
+                android:background="#0543b6" />
+
+            <View
+                android:id="@+id/view23"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_above="@+id/view22"
+                android:background="#0ca709" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:id="@+id/view31"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ff00" />
+
+            <View
+                android:id="@+id/view32"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_above="@+id/view31"
+                android:background="#0543b6" />
+
+            <View
+                android:id="@+id/view33"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_above="@+id/view32"
+                android:background="#0ca709" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:id="@+id/view41"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_alignParentBottom="true"
+                android:background="#ff00" />
+
+            <View
+                android:id="@+id/view42"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/view41"
+                android:background="#0543b6" />
+
+            <View
+                android:id="@+id/view43"
+                android:layout_width="50dp"
+                android:layout_height="150dp"
+                android:layout_above="@+id/view42"
+                android:background="#0ca709" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+</LinearLayout>
